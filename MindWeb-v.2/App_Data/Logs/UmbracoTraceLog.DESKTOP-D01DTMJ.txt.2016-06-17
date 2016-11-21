@@ -1,0 +1,81 @@
+﻿ 2016-06-17 15:14:51,548 [P5304/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on DESKTOP-D01DTMJ
+ 2016-06-17 15:14:51,652 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-06-17 15:14:51,663 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2016-06-17 15:14:51,756 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-06-17 15:14:52,038 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 282ms)
+ 2016-06-17 15:14:52,139 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-06-17 15:14:52,140 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-06-17 15:14:52,140 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-06-17 15:14:52,142 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-06-17 15:14:52,150 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-06-17 15:14:52,162 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+ 2016-06-17 15:14:52,162 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-06-17 15:14:52,167 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2016-06-17 15:14:52,324 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-06-17 15:14:52,325 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-06-17 15:14:52,325 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-06-17 15:14:52,326 [P5304/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-06-17 15:14:53,143 [P5304/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-17 15:14:53,349 [P5304/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-17 15:14:53,381 [P5304/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-17 15:14:53,550 [P5304/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-06-17 15:14:53,748 [P5304/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-06-17 15:14:53,809 [P5304/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-06-17 15:14:53,818 [P5304/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2310ms)
+ 2016-06-17 15:14:56,983 [P5304/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:49916/umbraco (UmbracoModule request)
+ 2016-06-17 15:14:57,149 [P5304/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2016-06-17 15:14:57,156 [P5304/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2016-06-17 15:14:57,738 [P5304/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-17 15:14:57,739 [P5304/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-06-17 15:14:59,682 [P5304/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-06-17 15:14:59,683 [P5304/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-06-17 15:14:59,844 [P5304/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-17 15:14:59,844 [P5304/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-06-17 15:14:59,866 [P5304/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-06-17 15:14:59,867 [P5304/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2016-06-17 15:15:57,277 [P5304/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-16 15:15:57
+ 2016-06-17 15:17:05,902 [P5304/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username madsvmunk@gmail.com from IP address ::1
+ 2016-06-17 15:17:05,903 [P5304/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: madsvmunk@gmail.com logged in from IP address ::1
+ 2016-06-17 15:17:06,007 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-17 15:17:06,008 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-17 15:17:06,087 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-06-17 15:17:06,088 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-06-17 15:17:06,125 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-17 15:17:06,127 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-06-17 15:17:06,141 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-17 15:17:06,141 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-17 15:17:06,143 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-17 15:17:06,144 [P5304/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-06-17 15:17:22,453 [P5304/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nyheder' with Id '1118' has been published.
+ 2016-06-17 15:17:22,519 [P5304/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-06-17 15:17:22,521 [P5304/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-06-17 15:17:26,614 [P5304/D2/T5] INFO  umbraco.content - Save Xml to file...
+ 2016-06-17 15:17:26,634 [P5304/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-17 15:17:35,579 [P5304/D2/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-17 15:17:41,329 [P5304/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nyheder' with Id '1118' has been published.
+ 2016-06-17 15:17:44,380 [P5304/D2/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-17 15:17:45,354 [P5304/D2/T16] INFO  umbraco.content - Save Xml to file...
+ 2016-06-17 15:17:45,362 [P5304/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-17 15:19:06,234 [P5304/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extend' with Id '1115' has been unpublished.
+ 2016-06-17 15:19:06,398 [P5304/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Package repository' with Id '1117' has been unpublished.
+ 2016-06-17 15:19:06,449 [P5304/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Umbraco Forms' with Id '1116' has been unpublished.
+ 2016-06-17 15:19:10,265 [P5304/D2/T21] INFO  umbraco.content - Save Xml to file...
+ 2016-06-17 15:19:10,281 [P5304/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-17 15:20:19,609 [P5304/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nyheder' with Id '1118' has been published.
+ 2016-06-17 15:20:19,609 [P5304/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Learn' with Id '1107' has been published.
+ 2016-06-17 15:20:19,609 [P5304/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Meditationer' with Id '1164' has been published.
+ 2016-06-17 15:20:19,609 [P5304/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Øvelser' with Id '1153' has been published.
+ 2016-06-17 15:20:19,609 [P5304/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Explore' with Id '1111' has been published.
+ 2016-06-17 15:20:19,609 [P5304/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1122' has been published.
+ 2016-06-17 15:20:23,750 [P5304/D2/T17] INFO  umbraco.content - Save Xml to file...
+ 2016-06-17 15:20:23,757 [P5304/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2016-06-17 15:22:04,711 [P5304/D2/T23] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type exercise matches a locally declared controller of type MindWeb_v._2.Controllers.ExerciseController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-17 15:26:26,172 [P5304/D2/T44] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type exercise matches a locally declared controller of type MindWeb_v._2.Controllers.ExerciseController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-17 15:28:35,314 [P5304/D2/T50] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type exercise matches a locally declared controller of type MindWeb_v._2.Controllers.ExerciseController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-17 15:28:51,916 [P5304/D2/T30] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type exercise matches a locally declared controller of type MindWeb_v._2.Controllers.ExerciseController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-17 15:29:29,210 [P5304/D2/T52] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type exercise matches a locally declared controller of type MindWeb_v._2.Controllers.ExerciseController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-17 15:29:59,442 [P5304/D2/T48] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type exercise matches a locally declared controller of type MindWeb_v._2.Controllers.ExerciseController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-17 15:30:07,673 [P5304/D2/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type exercise matches a locally declared controller of type MindWeb_v._2.Controllers.ExerciseController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-17 16:10:43,906 [P5304/D2/T77] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tredje Meditation' with Id '0' has been published.
+ 2016-06-17 16:10:47,946 [P5304/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2016-06-17 16:10:47,949 [P5304/D2/T95] INFO  umbraco.content - Saved Xml to file.

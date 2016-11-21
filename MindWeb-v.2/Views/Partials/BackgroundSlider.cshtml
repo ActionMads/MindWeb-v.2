@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+	@{
+	var mediaFolderId = (int)CurrentPage.Banners;
+		
+	var mediaFolder = Umbraco.TypedMedia(1083);
+	var banners = mediaFolder.Children.Where(x => x.DocumentTypeAlias == "Image").ToList();
+	}
+	<div id='banners'>
+		@foreach (var banner in banners) {
+			<img src="@(banner.Url)"/>
+				
+			
+		}
+	</div>
+	
+	<div class="progress-bar"></div>
+	<script type="text/javascript" src="/scripts/jquery-2.2.3.js"></script>       
+     <script> 
+         $(window).load(function () {
+             $("#banners").carouFredSel({ 
+                 scroll: { 
+                     items: 1, 
+                     duration: 1000 
+                 }, 
+                 auto: { 
+                     progress: ".progress-bar" 
+                 } 
+                  
+             }); 
+         }); 
+     </script> 

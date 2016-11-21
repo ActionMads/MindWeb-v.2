@@ -1,0 +1,8 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+	@{
+		var s = Model.MacroParameters["PageId"].ToString();
+    	var g = new Guid(s);
+	}
+	
+	@Html.RenderAction("Render", "Exercise", new {Id = g})

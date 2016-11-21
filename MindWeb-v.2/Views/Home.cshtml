@@ -1,0 +1,25 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+	var selection = CurrentPage.Site().Children.Where("Name != @0 && Name != @1","Nyheder","Contact");
+}
+
+
+<section class="homeDiv">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8">
+			@foreach(var item in selection){
+		
+				<a class="fpLink" href="@item.Url">@item.Name</a>
+		
+			}
+			</div>
+			<div class="col-sm-4">
+				@Umbraco.RenderMacro("LatestNews")
+			</div>
+		</div>
+	</div>
+</section>
+
+	

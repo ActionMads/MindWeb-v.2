@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Master.cshtml";
+	var meditation = Model.Content.Children.Where(x => x.IsVisible()).First();
+	var selection = CurrentPage.Site().FirstChild("meditations").Children.Where("Visible");
+}
+
+
+<section>
+		<div class="container">
+			<div class="row">
+				<div id="exerciseCon" class="col-sm-8">
+					<i class="fa fa-camera-retro"></i>
+					<div id="partialDiv">
+					
+					</div>
+				</div>
+
+	
+				<div class="col-sm-4">
+					
+					<ul class="categoryLi">
+					<h3>Meditationer</h3>
+					<hr>
+						@foreach(var item in selection){
+							<li data-url="@(item.Url)">@item.Name
+							</li>
+							
+						}
+					<hr>
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</section>
+						
+<script type="text/javascript">
+	var meditationId = @meditation.Id;
+	</script>
+		
+	

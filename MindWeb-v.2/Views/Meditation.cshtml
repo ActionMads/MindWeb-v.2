@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Meditation>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = null;
+	
+}
+<div id="partialDiv">
+	@CurrentPage.GetGridHtml("audioGrid")
+	
+		<div class="audioCon">
+			<audio controls id="audioPlayer">
+   				<source src="@(Umbraco.Media(CurrentPage.AudioPicker).umbracoFile)" type="audio/mpeg">
+ 				Your browser does not support the audio element.
+			</audio>
+		</div>
+	
+</div>
